@@ -1,0 +1,24 @@
+#Find top 3 orders/purchased customers for each day
+#We need to join order and order_items 
+#And then using a function to return the top 3 customers list for each day
+
+####################### Using scala #############################################
+
+val ordersRDD = sc.textFile("/home/cloudera/orders.txt")
+val orderItemsRDD = sc.textFile("/home/cloudera/order_items.txt")
+
+val ordersMap = ordersRDD.map(x => (x.split(",")(0).toInt, x))
+val orderItemsMap = orderItemsRDD.map(x => (x.split(",")(1).toInt, x))
+val ordersJoinedMap = ordersMap.join(orderItemsMap)
+
+val orderTotalPerDayPerCustomerMap = ordersJoinedMap.map(x => ((x._2._1.split(",")(2).toInt, x._2._1.split(",")(1)), x._2._2.split(",")(4).toFloat)).reduceByKey((a, b) => a+b).map(x => (x._1._2, (x._1._1, x._2)))
+
+val ordersMapByCustomers = orderTotalPerDayPerCustomerMap.map(x => (x._1, (x._2._1, x._2._2)))
+
+def getTopItems(x: Iterable[(Int, Float)], topNItems: Int): Iterable[(Int, Float)] = {
+	 val retList: List[(Int, Float)] = x.toList.sortBy(k => -k._2).take(topNItems)
+	 return retList
+}
+
+ordersMapByCustomers.groupByKey().map(x => (x._1, getTopItems(x._2, 3))).takeOrdered(5).foreach(println)
+ordersMapByCustomers.groupByKey().map(x => (x._1, getTopItems(x._2, 3))).sortByKey().foreach(println)
