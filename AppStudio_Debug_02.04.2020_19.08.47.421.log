@@ -1,0 +1,1304 @@
+
+INFO: Feb 04 2020 AT:19:08:47 IST
+INFO: Started Installation: AppStudio
+INFO: Product ID: acde1bbe-1f0c-11b2-82db-d4e5937b5693
+INFO: Debug Log file name: C:\Users\upparav\AppStudio_Debug_02.04.2020_19.08.47.421.log
+INFO: Installation log location: C:\Users\upparav
+INFO: Installer: C:\Users\upparav\OneDrive - ACI Worldwide Corp\New_IBI_Version\App8206_14\AppStudio8206 (1)\AppStudio8206.exe
+
+INFO: Locale: en
+INFO: UI mode: SWING
+
+INFO: Checking bitness of package, bundled JVM, client machine...
+INFO: detected 64-bit cpu architecture: Y, Value found: AMD64 at registry: SYSTEM\CurrentControlSet\Control\Session Manager\Environment - PROCESSOR_ARCHITECTURE
+INFO: java.vm.name: OpenJDK 64-Bit Server VM
+INFO: C:\Users\upparav\AppData\Local\Temp\376967.tmp: Short path for - $SHORT_PATH$: C:\Users\upparav\AppData\Local\Temp\376967.tmp
+
+INFO: Searching for WebFOCUS...
+INFO: Looking Webfocus...
+INFO: Getting keys from registry: SOFTWARE\Wow6432Node\Information Builders
+ERROR: could not find any subkeys under SOFTWARE\Wow6432Node\Information Builders
+INFO: There is no key at: SOFTWARE\Wow6432Node\Information Builders
+INFO: WF_EXIST=N
+INFO: USE_WF_CONFIG=N
+
+INFO: Searching for Apache Tomcat...
+INFO: Tomcat version supproted: 8 and up
+INFO: Looking for 64-bit Tomcat...
+INFO: Getting keys from procrun 2.0: SOFTWARE\Apache Software Foundation\Procrun 2.0
+INFO: could not find any subkeys under SOFTWARE\Apache Software Foundation\Procrun 2.0
+INFO: Getting keys from procrun 2.0: SOFTWARE\Wow6432Node\Apache Software Foundation\Procrun 2.0
+INFO: could not find any subkeys under SOFTWARE\Wow6432Node\Apache Software Foundation\Procrun 2.0
+INFO: Tomcat registry key: SOFTWARE\Apache Software Foundation\Tomcat
+INFO: Tomcat<64-bit> not found
+INFO: Looking for 32-bit Tomcat...
+INFO: Getting keys from procrun 2.0: SOFTWARE\Wow6432Node\Apache Software Foundation\Procrun 2.0
+INFO: could not find any subkeys under SOFTWARE\Wow6432Node\Apache Software Foundation\Procrun 2.0
+INFO: Tomcat registry key: SOFTWARE\Wow6432Node\Apache Software Foundation\Tomcat
+INFO: There is no key at: SOFTWARE\Wow6432Node\Apache Software Foundation\Procrun 2.0
+INFO: Tomcat<32-bit> not found
+INFO: TOMCAT_INSTALL=Y
+INFO: TOMCAT_FOUND=N
+INFO: TOMCAT_PROCRUN2=
+INFO: TOMCAT_INSTALL=Y
+INFO: TOMCAT_INSTALL_DIR=\tomcat
+INFO: TOMCAT_VERSION=8.5.41
+INFO: TC_SERVER_PORT=8005
+INFO: TC_PORT=8080
+INFO: TC_AJP_PORT=8009
+INFO: TC_REDIRECT_PORT=8443
+INFO: TC_SERVICE_NAME=Tomcat8WF
+INFO: TC_SERVICE_DISPLAYNAME=Apache Tomcat 8.5.41 for WebFOCUS
+INFO: USING Tomcat= 
+INFO: Finished searching for Tomcat.
+
+INFO: Generating default ports...
+INFO: INSTALLER_UI=SWING
+INFO: Checking port status of 8005 on InetAddress: 0.0.0.0
+DEBUG: Listening on port: 8005
+INFO: Now, Checking port status of 8005 on InetAddress: BLRDL-PF1HTYR5
+DEBUG: Listening on port: 8005
+INFO: Now, Checking port status of 8005 on InetAddress: 127.0.0.1
+DEBUG: Listening on port: 8005
+INFO: Checking port status of 8009 on InetAddress: 0.0.0.0
+DEBUG: Listening on port: 8009
+INFO: Now, Checking port status of 8009 on InetAddress: BLRDL-PF1HTYR5
+DEBUG: Listening on port: 8009
+INFO: Now, Checking port status of 8009 on InetAddress: 127.0.0.1
+DEBUG: Listening on port: 8009
+INFO: Checking port status of 8080 on InetAddress: 0.0.0.0
+DEBUG: Listening on port: 8080
+INFO: Now, Checking port status of 8080 on InetAddress: BLRDL-PF1HTYR5
+DEBUG: Listening on port: 8080
+INFO: Now, Checking port status of 8080 on InetAddress: 127.0.0.1
+DEBUG: Listening on port: 8080
+INFO: Checking port status of 8443 on InetAddress: 0.0.0.0
+DEBUG: Listening on port: 8443
+INFO: Now, Checking port status of 8443 on InetAddress: BLRDL-PF1HTYR5
+DEBUG: Listening on port: 8443
+INFO: Now, Checking port status of 8443 on InetAddress: 127.0.0.1
+DEBUG: Listening on port: 8443
+INFO: Checking port status of 8120 on InetAddress: 0.0.0.0
+DEBUG: Listening on port: 8120
+INFO: Now, Checking port status of 8120 on InetAddress: BLRDL-PF1HTYR5
+DEBUG: Listening on port: 8120
+INFO: Now, Checking port status of 8120 on InetAddress: 127.0.0.1
+DEBUG: Listening on port: 8120
+INFO: Checking port status of 8121 on InetAddress: 0.0.0.0
+DEBUG: Listening on port: 8121
+INFO: Now, Checking port status of 8121 on InetAddress: BLRDL-PF1HTYR5
+DEBUG: Listening on port: 8121
+INFO: Now, Checking port status of 8121 on InetAddress: 127.0.0.1
+DEBUG: Listening on port: 8121
+INFO: Checking port status of 8122 on InetAddress: 0.0.0.0
+DEBUG: Listening on port: 8122
+INFO: Now, Checking port status of 8122 on InetAddress: BLRDL-PF1HTYR5
+DEBUG: Listening on port: 8122
+INFO: Now, Checking port status of 8122 on InetAddress: 127.0.0.1
+DEBUG: Listening on port: 8122
+INFO: Checking port status of 8123 on InetAddress: 0.0.0.0
+DEBUG: Listening on port: 8123
+INFO: Now, Checking port status of 8123 on InetAddress: BLRDL-PF1HTYR5
+DEBUG: Listening on port: 8123
+INFO: Now, Checking port status of 8123 on InetAddress: 127.0.0.1
+DEBUG: Listening on port: 8123
+INFO: Tomcat Ports: 8080, 8443, 8009, 8005
+INFO: Reporting Server Ports: 8120
+
+INFO: Choosing Installation Type...
+INFO: Getting keys from: SOFTWARE\Information Builders\AppStudio
+INFO: could not find any subkeys under SOFTWARE\Information Builders\AppStudio
+INFO: There is no existing AppStudio82
+INFO: UPDATE_INSTALL=N
+INFO: AS_EXIST=N
+
+INFO: Feb 04 2020_AT:19:08:52 IST
+INFO: =======license_code= ==INSTALLER_UI==SWING 
+
+
+INFO: Searching for IIS...
+INFO: key: SOFTWARE\Microsoft\INetStp with value:'MajorVersion' does not exist
+INFO: key: SOFTWARE\Microsoft\INetStp with value:'MinorVersion' does not exist
+INFO: set IIS_FOUND=N
+INFO: set IIS_MAJOR_VER=0
+INFO: set IIS_MINOR_VER=0
+INFO: set ISAPIFilterBinaries=N
+INFO: set ISAPIFilter=N
+INFO: set ISAPIExtensionsBinaries=N
+INFO: set ISAPIExtensions=N
+INFO: set ISAPIExtensionsWow=N
+INFO: set ISAPIFilterWow=N
+
+INFO: Information Dialog...
+INFO: End of Information Dialog...
+
+INFO: Choosing program folders...
+INFO: startstr=WebFOCUS 82 App Studio
+INFO: suffix= suffixWithoutSpaceString=
+INFO: Program Folder: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Information Builders\WebFOCUS 82 App Studio
+INFO: WF_PROGRAM_MENU=WebFOCUS 82 App Studio
+INFO: INSTANCE_SUFFIX=
+INFO: SUFFIX_WITHOUT_SPACE=
+INFO: PROGRAMFOLDER=WebFOCUS 82 App Studio
+INFO: RELEASE_SUFFIX=82
+
+INFO: Choosing destination folders... ...
+INFO: ==License Code=030
+INFO: Windows=true, will instantiate FileService
+INFO: fservice not null
+INFO: setting drive list
+INFO: driveChooser.getModel().getSize()=0
+INFO: setting drive list
+INFO: driveChooser.getModel().getSize()=1
+INFO: path=C:\ibi
+INFO: index=0
+INFO: checking: C:\ibi
+INFO: checking for WIndows, not unc: C:\ibi
+INFO: path: C:\ibi
+INFO: folders.length:2
+INFO: folder: ibi
+INFO: Windows=true, will instantiate FileService
+INFO: fservice not null
+INFO: Checking if folder has access: C:\ibi
+INFO: pathToCheck: C:\ibi does not exist!
+INFO: pathToCheck: C:\ exists!
+INFO: pathToCheck: C:\ has write access!
+INFO: pathToCheck: C:\ has read access!
+INFO: has read-write access
+INFO: path is valid:C:\ibi
+INFO: USING_UNC=N
+INFO: d[0]:C:\
+INFO: Selected Destination:
+ user installation folder: C:\ibi\AppStudio82
+ webfocus installation folder: C:\ibi\AppStudio82
+ default tomcat folder: C:\ibi\tomcat
+INFO: checking: C:\ibi\apps
+INFO: checking for WIndows, not unc: C:\ibi\apps
+INFO: path: C:\ibi\apps
+INFO: folders.length:3
+INFO: folder: ibi
+INFO: folder: apps
+INFO: Windows=true, will instantiate FileService
+INFO: fservice not null
+INFO: Checking if folder has access: C:\ibi\apps
+INFO: pathToCheck: C:\ibi\apps does not exist!
+INFO: pathToCheck: C:\ibi does not exist!
+INFO: pathToCheck: C:\ exists!
+INFO: pathToCheck: C:\ has write access!
+INFO: pathToCheck: C:\ has read access!
+INFO: has read-write access
+INFO: path is valid:C:\ibi\apps
+INFO: approotPath:C:\ibi\apps
+INFO: AS_APPS_INSTALL_DIR:C:\ibi\apps
+
+INFO: Selecting Component to install...
+INFO: Setting initial values:
+INFO: Setting initial values:
+INFO: set appStudio:true
+INFO: set tomcat:true
+INFO: set WFQuickDataChkBox:true
+INFO: 
+INFO: set appStudio:true
+INFO: set tomcat:true
+INFO: set WFQuickDataChkBox:true
+INFO: 
+INFO: no. of folders:3
+INFO: checking: C:\ibi\tomcat
+INFO: checking for WIndows, not unc: C:\ibi\tomcat
+INFO: path: C:\ibi\tomcat
+INFO: folders.length:3
+INFO: folder: ibi
+INFO: folder: tomcat
+INFO: Windows=true, will instantiate FileService
+INFO: fservice not null
+INFO: Checking if folder has access: C:\ibi\tomcat
+INFO: pathToCheck: C:\ibi\tomcat does not exist!
+INFO: pathToCheck: C:\ibi does not exist!
+INFO: pathToCheck: C:\ exists!
+INFO: pathToCheck: C:\ has write access!
+INFO: pathToCheck: C:\ has read access!
+INFO: has read-write access
+INFO: path is valid:C:\ibi\tomcat
+INFO: Saving selected values:
+INFO: AS_INSTALL=true
+INFO: USE_WF_CONFIG=N
+INFO: bzRstatInstall=false
+INFO: szRstatPath=get default from string table
+INFO: WF_RSTAT_INSTALL=N
+INFO: WF_RSTAT_PATH=
+INFO: WQD_OPTION=true
+INFO: WQD_INSTALL=Y
+INFO: TOMCAT_INSTALL=Y
+INFO: TOMCAT_INSTALL_DIR=C:\ibi\tomcat
+INFO: TC_CONFIGURE=Y
+INFO: TC_PLUGIN_CONFIGURE=N
+INFO: bConfig_local_help=true
+INFO: help_host=
+INFO: help_port=
+INFO: REMOTE_APPHELP=N
+INFO: End of Select Component...
+
+INFO: Feb 04 2020_AT:19:09:36 IST
+INFO: Setting WS_PORT - WS_PORT=8080, bzWFPortCust=false
+
+
+INFO: Setting up variables...
+INFO: HOSTMACHINE: BLRDL-PF1HTYR5
+
+INFO: Feb 04 2020_AT:19:09:38 IST
+INFO: End of Pre-Install. Begining Install........
+
+
+INFO: Feb 04 2020 AT:19:09:38 IST
+INFO: Started Installation: 
+INFO: Product ID: c13c8579-1f05-11b2-93da-ad7f7b060d93
+INFO: Debug Log file name: C:\Users\upparav\AppStudio_Debug_02.04.2020_19.08.47.421.log
+INFO: Installation log location: 
+INFO: Installer: C:\Users\upparav\OneDrive - ACI Worldwide Corp\New_IBI_Version\App8206_14\AppStudio8206 (1)\AppStudio8206.exe
+
+INFO: Locale: en
+INFO: UI mode: SWING
+
+INFO: Feb 04 2020_AT:19:09:38 IST
+INFO: TOMCAT_FOLDER_NAME=tomcat; End of Pre-Install of Tomcat. Back to parent Install........
+
+
+INFO: Cleaning up...
+INFO: Checking for installed services to cleanup
+INFO: Finished cleaning up
+
+
+INFO: CreateContextTemplates ...
+
+INFO: Feb 04 2020_AT:19:10:24 IST
+INFO: IS64BIT=Y, JAVA_DIR=C:\ibi\AppStudio82\jre
+
+INFO: C:\ibi\APPSTU~1: Short path for - $SHORT_PATH$: C:\ibi\AppStudio82
+
+INFO: Feb 04 2020_AT:19:10:24 IST
+INFO: Begin transfering files
+
+
+INFO: Copy Mapped files/folders... ... ...
+INFO: license:030, mapfile:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\map.txt
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\misc\data.htm
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\misc\data.htm
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\misc\install_guide.pdf
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\misc\install_guide.pdf
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\misc\wf_new_features.pdf
+WARNING: File or directory does not exist.
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\misc\readme.htm
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\misc\readme.htm
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\misc\wflicense.key
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\misc\wflicense.key
+INFO: Created folder:C:\ibi\apps\ibimagn
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centurycustomers.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centurycustomers.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centurycustomers.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centurycustomers.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryemployees.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryemployees.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryemployees.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryemployees.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryorderdetails.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryorderdetails.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryorderdetails.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryorderdetails.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryorders.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryorders.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryorders.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryorders.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryplants.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryplants.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryplants.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryplants.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryproducts.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryproducts.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryproducts.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryproducts.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryreviews.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryreviews.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryreviews.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centuryreviews.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centurystores.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centurystores.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centurystores.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\centurystores.mas
+INFO: Created folder:C:\ibi\apps\ibimagn\files
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Corporate Calendar.ppt
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Corporate Calendar.ppt
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Customer Satisfaction Improvement Plan.ppt
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Customer Satisfaction Improvement Plan.ppt
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Employee shift schedule.xlsx
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Employee shift schedule.xlsx
+INFO: Created folder:C:\ibi\apps\ibimagn\files\FOCUS Version UTF8
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centurycustomers.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centurycustomers.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centurycustomers.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centurycustomers.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryemployees.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryemployees.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryemployees.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryemployees.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryorderdetails.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryorderdetails.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryorderdetails.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryorderdetails.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryorders.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryorders.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryorders.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryorders.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryplants.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryplants.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryplants.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryplants.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryproducts.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryproducts.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryproducts.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryproducts.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryreviews.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryreviews.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryreviews.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centuryreviews.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centurystores.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centurystores.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centurystores.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8\centurystores.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\FOCUS Version UTF8
+INFO: Created folder:C:\ibi\apps\ibimagn\files\Forms
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Forms\Mileage log with reimbursement form.xls
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Forms\Mileage log with reimbursement form.xls
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Forms\Return Form.xlsx
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Forms\Return Form.xlsx
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Forms\Travel advance request.xlsx
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Forms\Travel advance request.xlsx
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Forms\Travel Expenses.doc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Forms\Travel Expenses.doc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Forms
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Headcount and payroll planning.xls
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Headcount and payroll planning.xls
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\John Manning.docx
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\John Manning.docx
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\John Osborn Resume.odt
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\John Osborn Resume.odt
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\QTR_SALES_CMPD_complete.pdf
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\QTR_SALES_CMPD_complete.pdf
+INFO: Created folder:C:\ibi\apps\ibimagn\files\Records
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Records\assets.xls
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Records\assets.xls
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Records\customers.xls
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Records\customers.xls
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Records\employees.xls
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Records\employees.xls
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Records\orders.xls
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Records\orders.xls
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Records\plants.xls
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Records\plants.xls
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Records\products.xls
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Records\products.xls
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Records\stores.xls
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Records\stores.xls
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Records
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Recruiting Flyer.docx
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Recruiting Flyer.docx
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Sales Proposal.pptx
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Sales Proposal.pptx
+INFO: Created folder:C:\ibi\apps\ibimagn\files\Scripts
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\Format Magnify Time Trial.xlsx
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\Format Magnify Time Trial.xlsx
+INFO: Created folder:C:\ibi\apps\ibimagn\files\Scripts\iWayArchives
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\iWayArchives\20100514_The_Magnify_Platform_Overview_iWay_ETI_Back_End.docx
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\iWayArchives\20100514_The_Magnify_Platform_Overview_iWay_ETI_Back_End.docx
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\iWayArchives\iWayArchiveSetupReadMe.docx
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\iWayArchives\iWayArchiveSetupReadMe.docx
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\iWayArchives\iWayArchivingSteps.docx
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\iWayArchives\iWayArchivingSteps.docx
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\iWayArchives\Magnify80iWayArchivePort8080.zip
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\iWayArchives\Magnify80iWayArchivePort8080.zip
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\iWayArchives\Starting iWay as a Service.txt
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\iWayArchives\Starting iWay as a Service.txt
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\iWayArchives
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\Magnify_DB_Sizing_Requirements_Estimate_Sample.sql
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\Magnify_DB_Sizing_Requirements_Estimate_Sample.sql
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\Magnify_Flag_Data_For_Indexing.sql
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\Magnify_Flag_Data_For_Indexing.sql
+INFO: Created folder:C:\ibi\apps\ibimagn\files\Scripts\SQLServerDatabase
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\SQLServerDatabase\CenturySales_Database.zip
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\SQLServerDatabase\CenturySales_Database.zip
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\SQLServerDatabase\CenturySales_SQLScripts.zip
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\SQLServerDatabase\CenturySales_SQLScripts.zip
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\SQLServerDatabase\CenturySales_SQLtoXFOC.zip
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\SQLServerDatabase\CenturySales_SQLtoXFOC.zip
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\SQLServerDatabase\SQLServerSetupReadMe.docx
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\SQLServerDatabase\SQLServerSetupReadMe.docx
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts\SQLServerDatabase
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Scripts
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Shareholder Update Q2 2008.pdf
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Shareholder Update Q2 2008.pdf
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Staff Training.pptx
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Staff Training.pptx
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Store Sales Project Overview.pdf
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Store Sales Project Overview.pdf
+INFO: Created folder:C:\ibi\apps\ibimagn\files\Templates
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Templates\Fax Cover Sheet.docx
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Templates\Fax Cover Sheet.docx
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Templates\Product Information Template.doc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Templates\Product Information Template.doc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Templates\Sales Invoice Template.doc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Templates\Sales Invoice Template.doc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Templates\Store Flyer Template.docx
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Templates\Store Flyer Template.docx
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\Templates
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\text_handling.js
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files\text_handling.js
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\files
+INFO: Created folder:C:\ibi\apps\ibimagn\images
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\1.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\1.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\10.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\10.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\11.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\11.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\12.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\12.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\13.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\13.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\14.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\14.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\15.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\15.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\16.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\16.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\17.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\17.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\18.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\18.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\19.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\19.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\2.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\2.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\20.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\20.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\21.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\21.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\22.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\22.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\23.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\23.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\24.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\25.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\25.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\26.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\26.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\27.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\27.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\28.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\28.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\29.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\29.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\3.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\3.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\30.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\30.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\31.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\31.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\32.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\32.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\33.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\33.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\34.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\34.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\35.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\35.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\36.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\36.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\37.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\37.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\38.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\38.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\39.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\39.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\4.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\4.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\40.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\40.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\41.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\41.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\42.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\42.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\43.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\43.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\44.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\44.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\45.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\45.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\46.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\46.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\47.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\47.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\48.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\48.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\49.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\49.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\5.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\5.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\50.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\50.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\51.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\51.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\52.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\52.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\53.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\53.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\54.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\54.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\55.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\55.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\56.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\56.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\57.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\57.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\58.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\58.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\59.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\59.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\6.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\6.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\60.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\60.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\61.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\61.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\62.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\62.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\63.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\63.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\64.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\64.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\65.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\65.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\66.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\66.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\67.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\67.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\68.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\68.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\69.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\69.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\7.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\7.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\70.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\70.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\71.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\71.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\72.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\72.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\73.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\73.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\74.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\74.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\75.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\75.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\76.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\76.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\8.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\8.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\9.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\9.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\abcelec_24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\abcelec_24.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\acrobat_small.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\acrobat_small.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\acrossicon.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\acrossicon.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\active_reports_16.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\active_reports_16.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\almacen_24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\almacen_24.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\audio12_24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\audio12_24.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\audioex_24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\audioex_24.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\audiovi_24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\audiovi_24.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\avvideo_24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\avvideo_24.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\bilbaod_24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\bilbaod_24.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\camaraf_24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\camaraf_24.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\cityvid_24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\cityvid_24.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\consume_24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\consume_24.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\drillicon.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\drillicon.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\elektro_24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\elektro_24.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\emart_24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\emart_24.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\filetype_email_16.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\filetype_email_16.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\filetype_email_32.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\filetype_email_32.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\filtericon.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\filtericon.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\forecast_drillicon.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\forecast_drillicon.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\forecast_filtericon.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\forecast_filtericon.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\forecast_helpicon.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\forecast_helpicon.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\forecast_sorticon.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\forecast_sorticon.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_ahtml_32.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_ahtml_32.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_browser_16.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_browser_16.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_browser_32.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_browser_32.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_compound_16.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_compound_16.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_excel_16.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_excel_16.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_excel_32.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_excel_32.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_flex_16.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_flex_16.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_openoffice_32.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_openoffice_32.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_pdf_16.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_pdf_16.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_pdf_32.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_pdf_32.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_ppt_32.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_ppt_32.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_unk_16.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_unk_16.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_unk_32.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_unk_32.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_word_32.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\format_word_32.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\helpicon.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\helpicon.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\homeaud_24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\homeaud_24.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\icon_activereport.jpg
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\icon_activereport.jpg
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\icon_guidedadhoc.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\icon_guidedadhoc.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\imagese_24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\imagese_24.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\MagnifyLogo_Small.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\MagnifyLogo_Small.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\master16.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\master16.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\mobile_icon.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\mobile_icon.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\mondedi_24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\mondedi_24.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\no_image_found.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\no_image_found.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\planete_24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\planete_24.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\pwrbyWF_sm.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\pwrbyWF_sm.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\schulzu_24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\schulzu_24.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\sideimage.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\sideimage.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\sonidoy_24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\sonidoy_24.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\sorticon.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\sorticon.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\spacer.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\spacer.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\stereod_24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\stereod_24.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\sumicon.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\sumicon.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\tvcity_24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\tvcity_24.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\videoma_24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\videoma_24.png
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\winnipe_24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images\winnipe_24.png
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\images
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_customers_history.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_customers_history.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_customers_profile.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_customers_profile.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_customers_returns.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_customers_returns.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_employees_history.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_employees_history.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_employees_profile.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_employees_profile.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_index_customers.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_index_customers.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_index_employees.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_index_employees.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_index_files.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_index_files.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_index_magnifyprops.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_index_magnifyprops.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_index_magnifyredirect.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_index_magnifyredirect.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_index_orders.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_index_orders.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_index_plants.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_index_plants.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_index_products.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_index_products.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_index_reviews.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_index_reviews.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_index_stores.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_index_stores.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_orders_itemizeddetail.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_orders_itemizeddetail.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_orders_profile.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_orders_profile.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_plants_inventory.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_plants_inventory.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_plants_profile.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_plants_profile.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_plants_returns.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_plants_returns.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_plants_shipment.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_plants_shipment.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_products_forecast_color.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_products_forecast_color.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_products_forecast_default_color.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_products_forecast_default_color.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_products_forecast_dimesions.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_products_forecast_dimesions.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_products_forecast_form.htm
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_products_forecast_form.htm
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_products_forecast_launch.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_products_forecast_launch.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_products_forecast_measures.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_products_forecast_measures.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_products_forecast_report.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_products_forecast_report.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_products_forecast_style.css
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_products_forecast_style.css
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_products_profile.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_products_profile.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_products_related.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_products_related.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_products_returns.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_products_returns.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_reviews_profile.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_reviews_profile.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_stores_inventory.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_stores_inventory.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_stores_profile.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_stores_profile.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_stores_related.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_stores_related.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_stores_returns.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\magdemo_stores_returns.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\Magnify Search Demonstration.gfa
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn\Magnify Search Demonstration.gfa
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibimagn
+INFO: Created folder:C:\ibi\apps\maintain
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\contact.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\contact.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\contact.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\contact.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\delfans.mnt
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\delfans.mnt
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\fan.css
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\fan.css
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\fandone.mnt
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\fandone.mnt
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\fannames.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\fannames.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\fannames.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\fannames.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\fanrpt.fex
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\fanrpt.fex
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\getfans.mnt
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\getfans.mnt
+INFO: Created folder:C:\ibi\apps\maintain\images
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\addafan.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\addafan.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\addafan.jpg
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\addafan.jpg
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\addopt.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\addopt.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\binder.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\binder.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\board.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\board.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\book.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\book.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\bugsearch.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\bugsearch.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\cactback.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\cactback.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\cactus1.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\cactus1.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\currfan.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\currfan.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\currfan.jpg
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\currfan.jpg
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\dance.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\dance.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\emailed.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\emailed.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\fan.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\fan.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\fanclub.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\fanclub.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\fanopts.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\fanopts.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\front.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\front.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\login.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\login.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\loginopt.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\loginopt.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\loginpt.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\loginpt.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\maglass.jpg
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\maglass.jpg
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\options1.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\options1.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\search.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\search.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\showall.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\showall.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\spiral.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\spiral.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\spiralbg.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\spiralbg.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\stopguy.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\stopguy.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\stoplite.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\stoplite.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\title1.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\title1.gif
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\webfocus1.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images\webfocus1.gif
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\images
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\inclfans.mnt
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\inclfans.mnt
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\srchfans.mnt
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\srchfans.mnt
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\updfans.mnt
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\updfans.mnt
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\users.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\users.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\users.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain\users.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\maintain
+INFO: Created folder:C:\ibi\apps\ibidemo
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\alerts.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\alerts.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\alerts.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\alerts.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\centstmt.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\centstmt.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\centstmt.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\centstmt.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\centurysales.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\centurysales.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\centurysales.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\centurysales.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\currency.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\currency.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\currency.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\currency.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\hr.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\hr.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\hr.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\hr.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\ibidemo_dsrctbl.ftm
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\ibidemo_dsrctbl.ftm
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\ibidemo_dsrctbl.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\ibidemo_dsrctbl.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\invento.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\invento.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\invento.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\invento.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\locale.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\locale.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\locale.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\locale.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\plants.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\plants.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\plants.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\plants.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\stores.foc
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\stores.foc
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\stores.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\stores.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_alerts.ftm
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_alerts.ftm
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_alerts.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_alerts.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_curren.ftm
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_curren.ftm
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_curren.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_curren.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_hr.ftm
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_hr.ftm
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_hr.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_hr.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_invent.ftm
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_invent.ftm
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_invent.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_invent.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_orders.ftm
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_orders.ftm
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_orders.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_orders.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_plants.ftm
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_plants.ftm
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_plants.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_plants.mas
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_stores.ftm
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_stores.ftm
+INFO: Copy:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_stores.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo\_stores.mas
+INFO: Copied file/folder:C:\Users\upparav\AppData\Local\Temp\376967.tmp\mapped_files\ibidemo
+
+INFO: Feb 04 2020_AT:19:13:13 IST
+INFO: change permission on Webapps - C:\ibi\AppStudio82\jre\bin\java -cp "C:\ibi\AppStudio82\Utilities" touch  "C:\ibi\AppStudio82\webapps"
+
+
+INFO: Deleting files or directory after file transfer...
+INFO: deleting C:\ibi\AppStudio82\bin\psapidm.dll
+INFO: deleting C:\ibi\AppStudio82\bin\net32dm.dll
+INFO: copying C:\Users\upparav\AppData\Local\Temp\376967.tmp\rmbackup.bat to C:\ibi\AppStudio82\bin
+INFO: deleting: C:\ibi\AppStudio82\bin\MRE.HLP
+INFO: deleting: C:\ibi\AppStudio82\bin\MRE.CNT
+INFO: deleting: C:\ibi\AppStudio82\bin\MRATUT.HLP
+INFO: deleting: C:\ibi\AppStudio82\bin\MRE.PDF
+
+INFO: Feb 04 2020_AT:19:13:13 IST
+INFO: copying files for WQD
+
+INFO: copying C:\ibi\AppStudio82\Utilities\wfquickdata.xlato C:\Users\upparav\Application Data\Microsoft\AddIns\wfquickdata.xla
+
+INFO: Feb 04 2020_AT:19:13:13 IST
+INFO: Transfering files completed
+
+
+INFO: Feb 04 2020_AT:19:13:16 IST
+INFO: Beginning to configure
+
+
+INFO: UnRegister Dll list from reglist.txt
+ERROR: Could not Find file: C:\ibi\AppStudio82\bin\gfa.dll
+ERROR: Could not Find file: C:\ibi\AppStudio82\bin\gfw.dll
+INFO: UnRegister dll:C:\WINDOWS\system32\regsvr32.exe /s /u C:\ibi\AppStudio82\bin\befocus.dll
+INFO: UnRegister dll:C:\WINDOWS\system32\regsvr32.exe /s /u C:\ibi\AppStudio82\bin\wfscom.dll
+INFO: UnRegister dll:C:\WINDOWS\system32\regsvr32.exe /s /u C:\ibi\AppStudio82\bin\fpar.dll
+INFO: UnRegister dll:C:\WINDOWS\system32\regsvr32.exe /s /u C:\ibi\AppStudio82\bin\stylepreview.dll
+INFO: UnRegister dll:C:\WINDOWS\system32\regsvr32.exe /s /u C:\ibi\AppStudio82\bin\gcconnct.dll
+
+INFO: Feb 04 2020_AT:19:13:17 IST
+INFO: license=200-378-1231-61 , edahome=C:\ibi\APPSTU~1\srv\home , edaconf=C:\ibi\APPSTU~1\srv\wfs , edaprfu=C:\ibi\APPSTU~1\srv\profiles , programfolder=WebFOCUS Server for App Studio , port=8120 , approot=C:\ibi\apps
+
+
+INFO: Feb 04 2020_AT:19:16:01 IST
+INFO: Installing Reporting Server :  "C:\Users\upparav\AppData\Local\Temp\376967.tmp\wfsrv\disk1\setup.exe" -l0x0409 -opt C:\ibi\AppStudio82\srv\options.txt  STDOUT:
+C:\Users\upparav\AppData\Local\Temp\I1580823402\Windows_Pure_64_Bit>"C:\Users\upparav\AppData\Local\Temp\376967.tmp\wfsrv\disk1\setup.exe" -l0x0409 -opt C:\ibi\AppStudio82\srv\options.txt 
+ STDERR: EXITCODE:0
+
+
+INFO: Searching for Eda...
+INFO: Getting keys from registry: SOFTWARE\Information Builders
+INFO: Sub keys:[WebFOCUS Server for App Studio]
+INFO: EDA_EXIST=Y
+INFO: EdaConfHomeDir=C:\ibi\APPSTU~1\srv\wfs
+INFO: EdaHomeDir=C:\ibi\APPSTU~1\srv\home
+INFO: SRV_REL=82
+
+INFO: Feb 04 2020_AT:19:16:01 IST
+INFO: Installed Reporting Server successfully - EdaConfHomeDir=C:\ibi\APPSTU~1\srv\wfs
+
+
+INFO: Write Install History...
+INFO: template: INSTALL_TYPE={INSTALL_TYPE}
+INFO: template: INSTALL_TIME={INSTALL_TIME}
+INFO: template: PRODUCT=as
+INFO: template: RELEASE=8206
+INFO: template: PACKAGE_NAME=as011520a
+INFO: inst_pkg_hist:INSTALL_TYPE=full
+INSTALL_TIME=20200204-191601
+PRODUCT=as
+RELEASE=8206
+PACKAGE_NAME=as011520a
+:end
+INFO: wrote back to file , C:\ibi\AppStudio82\config\inst_pkg_hist.txt, from Buffer.
+
+INFO: Deleting registry key if exist. apply only on full install...
+
+INFO: ... Cr_FocshellDat ...
+INFO: creating C:\ibi\AppStudio82\bin\FOCSHELL.DAT
+
+INFO: Deleting registry key ...
+INFO: Deleting this key:HKEY_CURRENT_USER\SOFTWARE\Information Builders\AppStudio\82\FOCSHELL
+
+INFO: Deleting registry value ...
+INFO: Deleting this key:HKEY_CURRENT_USER\SOFTWARE\Information Builders\AppStudio\82\FOCSHELL\DesktopSettings\Shell\TD_ToolName_INCLUDE
+INFO: Key:SOFTWARE\Information Builders\AppStudio\82\FOCSHELL\DesktopSettings\Shell\TD_ToolName_INCLUDE deleted.
+
+INFO: Feb 04 2020_AT:19:16:02 IST
+INFO: Executed C:\WINDOWS\regedit.exe /s C:\Users\upparav\AppData\Local\Temp\376967.tmp\languages.reg  - STDOUT:
+C:\Users\upparav\AppData\Local\Temp\I1580823402\Windows_Pure_64_Bit>C:\WINDOWS\regedit.exe /s C:\Users\upparav\AppData\Local\Temp\376967.tmp\languages.reg 
+ STDERR:  EXIT_CODE: 0
+
+INFO: Register Dll list from reglist.txt... ...
+ERROR: Could not Find file: C:\ibi\AppStudio82\bin\gfa.dll
+ERROR: Could not Find file: C:\ibi\AppStudio82\bin\gfw.dll
+INFO: Register dll:C:\WINDOWS\system32\regsvr32.exe /s befocus.dll
+INFO: Register dll:C:\WINDOWS\system32\regsvr32.exe /s wfscom.dll
+INFO: Register dll:C:\WINDOWS\system32\regsvr32.exe /s fpar.dll
+INFO: Register dll:C:\WINDOWS\system32\regsvr32.exe /s stylepreview.dll
+INFO: Register dll:C:\WINDOWS\system32\regsvr32.exe /s gcconnct.dll
+INFO: deleted C:\ibi\AppStudio82\bin\registerDlls.bat
+
+INFO: ModifyLangXML...
+INFO: parsed:C:\ibi\AppStudio82\config\languages.xml
+INFO: wf key: "en"
+INFO: Finished modifying languages.xml
+
+INFO: Removing lines from web.xml ...
+INFO: searchAndReplaceInFile:fn=C:\ibi\AppStudio82\Webapps\webfocus\WEB-INF\web.xml srchTxt=Remove_Next_Line: replTxt= replaceType=NextLine
+INFO: searchAndReplaceInFile:fn=C:\ibi\AppStudio82\Webapps\webfocus\WEB-INF\web.xml srchTxt=Remove_Next_Line: replTxt= replaceType=WholeLine
+
+INFO: Edit odin.cfg ... ...
+INFO: Editing C:\ibi\APPSTU~1\srv\wfs\etc\odin.cfg ...
+INFO: LOOPBACK string found in odin.cfg
+INFO: licenseCode=030
+INFO: Removing unwanted line from web.xml ...
+
+INFO: Feb 04 2020_AT:19:16:03 IST
+INFO: Executed "C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\regasm  C:\ibi\AppStudio82\bin\ibiwebbrowserdrivers_dotnet_35.dll" STDOUT:
+C:\Users\upparav\AppData\Local\Temp\I1580823402\Windows_Pure_64_Bit>C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\regasm  C:\ibi\AppStudio82\bin\ibiwebbrowserdrivers_dotnet_35.dll 
+Microsoft .NET Framework Assembly Registration Utility version 4.8.3752.0
+for Microsoft .NET Framework version 4.8.3752.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+Types registered successfully
+ STDERR:  EXITCODE:0
+
+
+INFO: Feb 04 2020_AT:19:16:03 IST
+INFO: JAVA HOME= C:\ibi\AppStudio82\jre
+
+
+INFO: Feb 04 2020_AT:19:16:03 IST
+INFO: TOMCAT_JRE=, TOMCAT_INSTALL_DIR=C:\ibi\tomcat TOMCAT_INSTALL=Y USER_MAGIC_FOLDER_3=C:\ibi
+
+
+INFO: Feb 04 2020 AT:19:16:06 IST
+INFO: Started Installation: 
+INFO: Product ID: c13c8579-1f05-11b2-93da-ad7f7b060d93
+INFO: Debug Log file name: C:\Users\upparav\AppStudio_Debug_02.04.2020_19.08.47.421.log
+INFO: Installation log location: 
+INFO: Installer: C:\Users\upparav\OneDrive - ACI Worldwide Corp\New_IBI_Version\App8206_14\AppStudio8206 (1)\AppStudio8206.exe
+
+INFO: Locale: en
+INFO: UI mode: SILENT
+
+INFO: Feb 04 2020_AT:19:16:06 IST
+INFO: installing in magic folder 3 in tomcat merge module
+
+
+INFO: Feb 04 2020_AT:19:16:06 IST
+INFO: USER_MAGIC_FOLDER =  ---TOMCAT_FOLDER_NAME= tomcat -- TOMCAT_INSTALL= Y
+
+
+INFO: Feb 04 2020_AT:19:16:06 IST
+INFO: TOMCAT_JRE=C:\ibi\tomcat\jre, TOMCAT_INSTALL_DIR=C:\ibi\tomcat, USER_INSTALL_DIR=C:\ibi\tomcat in tomcat module
+
+
+INFO: Feb 04 2020_AT:19:16:06 IST
+INFO: end of tomcat file transfer
+
+
+INFO: Feb 04 2020_AT:19:16:06 IST
+INFO: installing tomcat uninstaller
+
+
+INFO: Feb 04 2020_AT:19:16:09 IST
+INFO: executed tkadmlnk.exe on tomcat uninstall link: STDOUT:
+C:\Users\upparav\AppData\Local\Temp\376967.tmp>"C:\Users\upparav\AppData\Local\Temp\698094.tmp\tkadmlnk.exe" "C:\ProgramData\Information Builders\Tomcat\Uninstall Tomcat.lnk" 
+C:\Users\upparav\AppData\Local\Temp\698094.tmp\tkadmlnk.exe: checking current flags for C:\ProgramData\Information Builders\Tomcat\Uninstall Tomcat.lnk
+C:\Users\upparav\AppData\Local\Temp\698094.tmp\tkadmlnk.exe: RUNAS_USER flag is not set, adding it...
+C:\Users\upparav\AppData\Local\Temp\698094.tmp\tkadmlnk.exe: new flags successfully saved
+ STDERR: EXITCODE:0
+
+
+INFO: Feb 04 2020_AT:19:16:09 IST
+INFO: executed tkadmlnk.exe on tomcat configuration link: STDOUT:
+C:\Users\upparav\AppData\Local\Temp\376967.tmp>"C:\Users\upparav\AppData\Local\Temp\698094.tmp\tkadmlnk.exe" "C:\ProgramData\Information Builders\Tomcat\Tomcat Configuration Utility.lnk" 
+C:\Users\upparav\AppData\Local\Temp\698094.tmp\tkadmlnk.exe: checking current flags for C:\ProgramData\Information Builders\Tomcat\Tomcat Configuration Utility.lnk
+C:\Users\upparav\AppData\Local\Temp\698094.tmp\tkadmlnk.exe: RUNAS_USER flag is not set, adding it...
+C:\Users\upparav\AppData\Local\Temp\698094.tmp\tkadmlnk.exe: new flags successfully saved
+ STDERR: EXITCODE:0
+
+
+INFO: Feb 04 2020_AT:19:16:10 IST
+INFO: ===============end of tomcat module===============
+
+
+INFO: Feb 04 2020_AT:19:16:10 IST
+INFO: Executed wftcservice.bat  for Tom Cat - STDOUT:
+C:\Users\upparav\AppData\Local\Temp\I1580823402\Windows_Pure_64_Bit>set JAVA_HOME= 
+Installing the service 'Tomcat8WF' ...
+Using CATALINA_HOME:    "C:\ibi\tomcat"
+Using CATALINA_BASE:    "C:\ibi\tomcat"
+Using JAVA_HOME:        ""
+Using JRE_HOME:         "C:\ibi\tomcat\jre"
+Using JVM:              "C:\ibi\tomcat\jre\bin\server\jvm.dll"
+The service 'Tomcat8WF' has been installed.
+ STDERR:  EXIT_CODE: 0
+
+
+INFO: Configuring Tomcat...
+INFO: Service name:- Tomcat8WF
+INFO: Total Mem: 33938771968
+INFO: Existing JvmMs:128
+INFO: Existing JvmMx:256
+INFO: oneEighth Mem: 4242
+INFO: oneFourth Mem: 8484
+INFO: min Mem: 4242
+INFO: Setting mem at: SOFTWARE\Wow6432Node\Apache Software Foundation\Procrun 2.0\Tomcat8WF\Parameters\Java
+INFO: max Mem: 8484
+INFO: Setting mem at: SOFTWARE\Wow6432Node\Apache Software Foundation\Procrun 2.0\Tomcat8WF\Parameters\Java
+INFO: get value for: SOFTWARE\Wow6432Node\Apache Software Foundation\Procrun 2.0\Tomcat8WF\Parameters\Java, Options
+INFO: Existing options: [-Dcatalina.home=C:\ibi\tomcat, -Dcatalina.base=C:\ibi\tomcat, -Dignore.endorsed.dirs=C:\ibi\tomcat\endorsed, -Djava.io.tmpdir=C:\ibi\tomcat\temp, -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager, -Djava.util.logging.config.file=C:\ibi\tomcat\conf\logging.properties, ]
+INFO: get value for: SOFTWARE\Wow6432Node\Apache Software Foundation\Procrun 2.0\Tomcat8WF\Parameters\Java, Classpath
+INFO: Existing classpath: C:\ibi\tomcat\bin\bootstrap.jar;C:\ibi\tomcat\bin\tomcat-juli.jar
+INFO: C:\ibi\tomcat\bin\bootstrap.jar
+INFO: C:\ibi\tomcat\bin\tomcat-juli.jar
+INFO: New Classpath with jdbc[C:\ibi\tomcat\bin\bootstrap.jar, C:\ibi\tomcat\bin\tomcat-juli.jar, C:\ibi\AppStudio82\webapps\webfocus\WEB-INF\lib\derby.jar]
+INFO: Added: C:\ibi\tomcat\bin\bootstrap.jar;C:\ibi\tomcat\bin\tomcat-juli.jar;C:\ibi\AppStudio82\webapps\webfocus\WEB-INF\lib\derby.jar
+
+INFO: Configuring aliases ... ...
+INFO: searchAndReplaceInFile:fn=C:\ibi\tomcat\conf\Catalina\localhost\ibi_apphelp.xml srchTxt=--path-- replTxt=C:\\ibi\\AppStudio82\\webapps\\ibi_apphelp replaceType=
+INFO: search string found:--path-- in <Context docBase="--path--" path="/--alias--">
+INFO: searchAndReplaceInFile:fn=C:\ibi\tomcat\conf\Catalina\localhost\ibi_apphelp.xml srchTxt=--alias-- replTxt=ibi_apphelp replaceType=
+INFO: search string found:--alias-- in <Context docBase="C:\ibi\AppStudio82\webapps\ibi_apphelp" path="/--alias--">
+INFO: searchAndReplaceInFile:fn=C:\ibi\tomcat\conf\Catalina\localhost\approot.xml srchTxt=--path-- replTxt=C:\\ibi\\apps replaceType=
+INFO: search string found:--path-- in <Context docBase="--path--" path="/--alias--">
+INFO: searchAndReplaceInFile:fn=C:\ibi\tomcat\conf\Catalina\localhost\approot.xml srchTxt=--alias-- replTxt=approot replaceType=
+INFO: search string found:--alias-- in <Context docBase="C:\ibi\apps" path="/--alias--">
+INFO: searchAndReplaceInFile:fn=C:\ibi\tomcat\conf\Catalina\localhost\ibi_apps.xml srchTxt=--path-- replTxt=C:\\ibi\\AppStudio82\\webapps\\webfocus replaceType=
+INFO: search string found:--path-- in <Context docBase="--path--" path="/--alias--" useHttpOnly="true">
+INFO: searchAndReplaceInFile:fn=C:\ibi\tomcat\conf\Catalina\localhost\ibi_apps.xml srchTxt=--alias-- replTxt=ibi_apps replaceType=
+INFO: search string found:--alias-- in <Context docBase="C:\ibi\AppStudio82\webapps\webfocus" path="/--alias--" useHttpOnly="true">
+INFO: searchAndReplaceInFile:fn=C:\ibi\tomcat\conf\Catalina\localhost\ibi_help.xml srchTxt=--path-- replTxt=C:\\ibi\\AppStudio82\\webapps\\ibi_help replaceType=
+INFO: search string found:--path-- in <Context docBase="--path--" path="/--alias--">
+INFO: searchAndReplaceInFile:fn=C:\ibi\tomcat\conf\Catalina\localhost\ibi_help.xml srchTxt=--alias-- replTxt=ibi_help replaceType=
+INFO: search string found:--alias-- in <Context docBase="C:\ibi\AppStudio82\webapps\ibi_help" path="/--alias--">
+
+INFO: Feb 04 2020_AT:19:16:10 IST
+INFO: edit wfscom.xml by running cscript //nologo C:\Users\upparav\AppData\Local\Temp\376967.tmp\wfscom_update.vbs 8080 EN 1or0
+
+
+INFO: Feb 04 2020_AT:19:16:11 IST
+INFO: cscript //nologo C:\Users\upparav\AppData\Local\Temp\376967.tmp\wfscom_update.vbs 8080 EN 1or0 EXECUTE_STDOUT=
+C:\Users\upparav\AppData\Local\Temp\I1580823402\Windows_Pure_64_Bit>cscript //nologo C:\Users\upparav\AppData\Local\Temp\376967.tmp\wfscom_update.vbs 8080 EN 1 
+INFO: Server name localhost exists in wfscom.xml, overwriting it.
+
+INFO: Created node localhost in wfscom.xml with default id and password for webfocus.
+
+ , EXECUTE_STDERR= , EXECUTE_EXITCODE=0
+
+
+INFO: Feb 04 2020_AT:19:16:11 IST
+INFO: Creating HKEY_CURRENT_USER\SOFTWARE\Information Builders\AppStudio\82\FOCSHELL\WFSCOM\Web Components/Apache Tomcat Service key and set data = net start Tomcat8WF
+
+
+INFO: Feb 04 2020_AT:19:16:17 IST
+INFO: Executed C:\ibi\AppStudio82\utilities\WFReposUtil\WFReposUtilCMDLine.bat for WF - STDOUT:
+C:\Users\upparav\AppData\Local\Temp\I1580823402\Windows_Pure_64_Bit>C:\ibi\AppStudio82\utilities\WFReposUtil\WFReposUtilCMDLine.bat create_insert fine webfocus webfocus 
+ STDERR:  EXIT_CODE: 0
+
+
+INFO: Deleting registry value ...
+INFO: Deleting this key:HKEY_LOCAL_MACHINE\SOFTWARE\Information Builders\AppStudio\82\new_user\FOCSHELL\WFSCOM\WFSCOM file
+INFO: Key:SOFTWARE\Information Builders\AppStudio\82\new_user\FOCSHELL\WFSCOM\WFSCOM file deleted.
+
+INFO: Deleting registry value ...
+INFO: Deleting this key:HKEY_LOCAL_MACHINE\SOFTWARE\Information Builders\AppStudio\82\new_user\FOCSHELL\WFSCOM\WFSCOMTRACE file
+INFO: Key:SOFTWARE\Information Builders\AppStudio\82\new_user\FOCSHELL\WFSCOM\WFSCOMTRACE file deleted.
+
+INFO: Get install info ...
+INFO: creating C:\ibi\AppStudio82\backup if it does not exist
+INFO: C:\ibi\AppStudio82\backup does not exist.  creating it...
+INFO: C:\ibi\AppStudio82\backup\conf does not exist.  creating it...
+
+INFO: Feb 04 2020_AT:19:16:17 IST
+INFO: Executed C:\WINDOWS\regedit.exe /s C:\ibi\AppStudio82\bin\workspace.reg  - STDOUT:
+C:\Users\upparav\AppData\Local\Temp\I1580823402\Windows_Pure_64_Bit>C:\WINDOWS\regedit.exe /s C:\ibi\AppStudio82\bin\workspace.reg 
+ STDERR:  EXIT_CODE: 0
+
+
+INFO: Feb 04 2020_AT:19:16:17 IST
+INFO: Executed StartService - service_name=Tomcat8WF
+
+INFO: Service name:- Tomcat8WF
+INFO: Apache Tomcat 8.5.41 for WebFOCUS exists!
+INFO: Apache Tomcat 8.5.41 for WebFOCUS: Set start type to - Auto!
+INFO: started as to auto:Tomcat8WF
+DEBUG: Start Debug
+DEBUG: Win32ExitCode: 0
+DEBUG: ServiceSpecificExitCode: 0
+DEBUG: Checkpoint: 0
+DEBUG: Status: Start Pending
+DEBUG: End Debug
+INFO: Waiting for Tomcat8WF service to start
+DEBUG: Start Debug
+DEBUG: Win32ExitCode: 0
+DEBUG: ServiceSpecificExitCode: 0
+DEBUG: Checkpoint: 1
+DEBUG: Status: Start Pending
+DEBUG: End Debug
+INFO: Waiting for Tomcat8WF service to start
+DEBUG: Start Debug
+DEBUG: Win32ExitCode: 0
+DEBUG: ServiceSpecificExitCode: 0
+DEBUG: Checkpoint: 0
+DEBUG: Status: Running
+DEBUG: End Debug
+INFO: Waiting for another 10 sec for Tomcat8WF service to check status
+INFO: Apache Tomcat 8.5.41 for WebFOCUS started successfully!
+
+INFO: Feb 04 2020_AT:19:16:29 IST
+INFO: TOMCAT_FOUND=N TC_WAS_RUNNING=  TC_CONFIGURE=Y
+
+
+INFO: Feb 04 2020_AT:19:16:30 IST
+INFO: Executed C:\WINDOWS\regedit.exe /s C:\Users\upparav\AppData\Local\Temp\376967.tmp\new_and_upgrade.reg  - STDOUT:
+C:\Users\upparav\AppData\Local\Temp\I1580823402\Windows_Pure_64_Bit>C:\WINDOWS\regedit.exe /s C:\Users\upparav\AppData\Local\Temp\376967.tmp\new_and_upgrade.reg 
+ STDERR:  EXIT_CODE: 0
+
+
+INFO: Feb 04 2020_AT:19:16:30 IST
+INFO: RELEASE_PREVSP_PREV=, UPDATE_INSTALL=N, UPDATE_SHORT_CUT=N,  WF_PROGRAM_MENU = WebFOCUS 82 App Studio in C:\ProgramData\Information Builders
+
+
+INFO: Getting  value from string Table ...
+
+INFO: Feb 04 2020_AT:19:16:30 IST
+INFO: RELEASE_PREVSP_PREV=, UPDATE_INSTALL=N, UPDATE_SHORT_CUT=N,  WF_PROGRAM_MENU = WebFOCUS 82 App Studio in C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Information Builders
+
+
+INFO: Feb 04 2020_AT:19:16:30 IST
+INFO: ---All user menu--- WF_PROGRAM_MENU = WebFOCUS 82 App Studio in C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Information Builders
+
+INFO: Generating properties file... ... ...
+INFO: serialNumber=030649X04
+
+INFO: Feb 04 2020_AT:19:17:03 IST
+INFO: WF_RSTAT_PATH= - does not exist
+
+INFO: Closing up Log writer!

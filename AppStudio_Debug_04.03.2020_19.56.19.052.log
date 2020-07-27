@@ -1,0 +1,324 @@
+
+INFO: Apr 03 2020 AT:19:56:19 IST
+INFO: Started Installation: AppStudio
+INFO: Product ID: acde1bbe-1f0c-11b2-82db-d4e5937b5693
+INFO: Debug Log file name: C:\Users\upparav\AppStudio_Debug_04.03.2020_19.56.19.052.log
+INFO: Installation log location: C:\Users\upparav
+INFO: Installer: C:\Users\upparav\OneDrive - ACI Worldwide Corp\New_IBI_Version\AppStudio8206_14\AppStudio8206_13\AppStudio8206.exe
+
+INFO: Locale: en
+INFO: UI mode: SWING
+
+INFO: Checking bitness of package, bundled JVM, client machine...
+INFO: detected 64-bit cpu architecture: Y, Value found: AMD64 at registry: SYSTEM\CurrentControlSet\Control\Session Manager\Environment - PROCESSOR_ARCHITECTURE
+INFO: java.vm.name: OpenJDK 64-Bit Server VM
+INFO: C:\Users\upparav\AppData\Local\Temp\466579.tmp: Short path for - $SHORT_PATH$: C:\Users\upparav\AppData\Local\Temp\466579.tmp
+
+INFO: Searching for WebFOCUS...
+INFO: Looking Webfocus...
+INFO: Getting keys from registry: SOFTWARE\Wow6432Node\Information Builders
+ERROR: could not find any subkeys under SOFTWARE\Wow6432Node\Information Builders
+INFO: There is no key at: SOFTWARE\Wow6432Node\Information Builders
+INFO: WF_EXIST=N
+INFO: USE_WF_CONFIG=N
+
+INFO: Searching for Apache Tomcat...
+INFO: Tomcat version supproted: 8 and up
+INFO: Looking for 64-bit Tomcat...
+INFO: Getting keys from procrun 2.0: SOFTWARE\Apache Software Foundation\Procrun 2.0
+INFO: could not find any subkeys under SOFTWARE\Apache Software Foundation\Procrun 2.0
+INFO: Getting keys from procrun 2.0: SOFTWARE\Wow6432Node\Apache Software Foundation\Procrun 2.0
+INFO: Sub keys:[Tomcat8WF]
+INFO: Tomcat registry key: SOFTWARE\Apache Software Foundation\Tomcat
+INFO: Checking: Tomcat8WF
+INFO: tomcat jvmDllPath:C:\ibi\tomcat\jre\bin\server\jvm.dll
+INFO: tomcat java(n):C:\ibi\tomcat\jre\bin
+INFO: classpath:C:\Users\upparav\AppData\Local\Temp\466579.tmp\customcode.jar
+INFO: Tomcat JVM Version: 1.8.0_232
+INFO: TOMCAT_JVM_VERSION:1.8.0_232
+INFO: JAVA_EXIST_VERSION:1.8.0_232
+INFO: Tomcat JVM: 64
+INFO: Entered queryAlongProcrun with Tomcat8WF, 8WF, SOFTWARE\Wow6432Node\Apache Software Foundation\Procrun 2.0
+INFO: checking along registry key Procrun
+INFO: tomcat logpath:C:\ibi\tomcat\logs
+INFO: tomcat path:C:\ibi\tomcat
+INFO: Reading C:\ibi\tomcat\conf\server.xml
+INFO: Finished skipping comments at the top.
+INFO: Found node: Server
+INFO: server port:8005
+INFO: Found node: Service, Exploring children ...
+INFO: Found connector node: Connector
+INFO: going through attributes of: Connector
+INFO: read from file: 8080
+INFO: read from file: 8443
+INFO: end of attribute from: Connector
+INFO: Found connector node: Connector
+INFO: going through attributes of: Connector
+INFO: read from file: 8009
+INFO: read from file: 8443
+INFO: end of attribute from: Connector
+INFO: Finished exploring children of Service
+INFO: server port:8005
+INFO: http port:8080
+INFO: ajp port:8009
+INFO: redirect port:8443
+INFO: Finished reading all port numbers from server.xml file
+INFO: service name:- Tomcat8WF
+ERROR: Access is denied.
+ (5)
+ERROR: tomcat service Tomcat8WFdoes not exits!
+INFO: Tomcat<64-bit> not found
+INFO: Looking for 32-bit Tomcat...
+INFO: Getting keys from procrun 2.0: SOFTWARE\Wow6432Node\Apache Software Foundation\Procrun 2.0
+INFO: Sub keys:[Tomcat8WF]
+INFO: Tomcat registry key: SOFTWARE\Wow6432Node\Apache Software Foundation\Tomcat
+INFO: Checking: Tomcat8WF
+INFO: tomcat jvmDllPath:C:\ibi\tomcat\jre\bin\server\jvm.dll
+INFO: tomcat java(n):C:\ibi\tomcat\jre\bin
+INFO: classpath:C:\Users\upparav\AppData\Local\Temp\466579.tmp\customcode.jar
+INFO: Tomcat JVM Version: 1.8.0_232
+INFO: TOMCAT_JVM_VERSION:1.8.0_232
+INFO: JAVA_EXIST_VERSION:1.8.0_232
+INFO: Tomcat JVM: 64
+INFO: Tomcat8WF: Tomcat jvm is not 32-bit.
+INFO: Tomcat<32-bit> not found
+INFO: TOMCAT_INSTALL=Y
+INFO: TOMCAT_FOUND=N
+INFO: TOMCAT_PROCRUN2=
+INFO: TOMCAT_INSTALL=Y
+INFO: TOMCAT_INSTALL_DIR=\tomcat
+INFO: TOMCAT_VERSION=8.5.41
+INFO: TC_SERVER_PORT=8005
+INFO: TC_PORT=8080
+INFO: TC_AJP_PORT=8009
+INFO: TC_REDIRECT_PORT=8443
+INFO: TC_SERVICE_NAME=Tomcat8WF
+INFO: TC_SERVICE_DISPLAYNAME=Apache Tomcat 8.5.41 for WebFOCUS
+INFO: USING Tomcat= 
+INFO: Finished searching for Tomcat.
+
+INFO: Generating default ports...
+INFO: INSTALLER_UI=SWING
+INFO: Checking port status of 8005 on InetAddress: 0.0.0.0
+DEBUG: Could not listen on port: 8005
+INFO: Checking port status of 8006 on InetAddress: 0.0.0.0
+DEBUG: Listening on port: 8006
+INFO: Now, Checking port status of 8006 on InetAddress: BLRDL-PF1HTYR5
+DEBUG: Listening on port: 8006
+INFO: Now, Checking port status of 8006 on InetAddress: 127.0.0.1
+DEBUG: Listening on port: 8006
+INFO: Checking port status of 8009 on InetAddress: 0.0.0.0
+DEBUG: Could not listen on port: 8009
+INFO: Checking port status of 8010 on InetAddress: 0.0.0.0
+DEBUG: Listening on port: 8010
+INFO: Now, Checking port status of 8010 on InetAddress: BLRDL-PF1HTYR5
+DEBUG: Listening on port: 8010
+INFO: Now, Checking port status of 8010 on InetAddress: 127.0.0.1
+DEBUG: Listening on port: 8010
+INFO: Checking port status of 8080 on InetAddress: 0.0.0.0
+DEBUG: Could not listen on port: 8080
+INFO: Checking port status of 8081 on InetAddress: 0.0.0.0
+DEBUG: Could not listen on port: 8081
+INFO: Checking port status of 8082 on InetAddress: 0.0.0.0
+DEBUG: Listening on port: 8082
+INFO: Now, Checking port status of 8082 on InetAddress: BLRDL-PF1HTYR5
+DEBUG: Listening on port: 8082
+INFO: Now, Checking port status of 8082 on InetAddress: 127.0.0.1
+DEBUG: Listening on port: 8082
+INFO: Checking port status of 8443 on InetAddress: 0.0.0.0
+DEBUG: Listening on port: 8443
+INFO: Now, Checking port status of 8443 on InetAddress: BLRDL-PF1HTYR5
+DEBUG: Listening on port: 8443
+INFO: Now, Checking port status of 8443 on InetAddress: 127.0.0.1
+DEBUG: Listening on port: 8443
+INFO: Checking port status of 8120 on InetAddress: 0.0.0.0
+DEBUG: Listening on port: 8120
+INFO: Now, Checking port status of 8120 on InetAddress: BLRDL-PF1HTYR5
+DEBUG: Listening on port: 8120
+INFO: Now, Checking port status of 8120 on InetAddress: 127.0.0.1
+DEBUG: Listening on port: 8120
+INFO: Checking port status of 8121 on InetAddress: 0.0.0.0
+DEBUG: Listening on port: 8121
+INFO: Now, Checking port status of 8121 on InetAddress: BLRDL-PF1HTYR5
+DEBUG: Listening on port: 8121
+INFO: Now, Checking port status of 8121 on InetAddress: 127.0.0.1
+DEBUG: Listening on port: 8121
+INFO: Checking port status of 8122 on InetAddress: 0.0.0.0
+DEBUG: Listening on port: 8122
+INFO: Now, Checking port status of 8122 on InetAddress: BLRDL-PF1HTYR5
+DEBUG: Listening on port: 8122
+INFO: Now, Checking port status of 8122 on InetAddress: 127.0.0.1
+DEBUG: Listening on port: 8122
+INFO: Checking port status of 8123 on InetAddress: 0.0.0.0
+DEBUG: Listening on port: 8123
+INFO: Now, Checking port status of 8123 on InetAddress: BLRDL-PF1HTYR5
+DEBUG: Listening on port: 8123
+INFO: Now, Checking port status of 8123 on InetAddress: 127.0.0.1
+DEBUG: Listening on port: 8123
+INFO: Tomcat Ports: 8082, 8443, 8010, 8006
+INFO: Reporting Server Ports: 8120
+
+INFO: Choosing Installation Type...
+INFO: Getting keys from: SOFTWARE\Information Builders\AppStudio
+INFO: Sub keys:[82]
+INFO: as:82
+INFO: as Path:C:\ibi\AppStudio82
+INFO: as last release:8206, current release: 8206
+INFO: adding to arrayList: 82
+INFO: Sub keys:[C:\ibi\AppStudio82]
+INFO: List set to:[C:\ibi\AppStudio82]
+INFO: end of setupUI
+INFO: wfPath,(d):null
+INFO: AS_INSTALL=true
+INFO: AS_EXIST=N
+INFO: USER_INSTALL_DIR=C:\ibi
+INFO: UPDATE_INSTALL=N
+
+INFO: Apr 03 2020_AT:20:01:57 IST
+INFO: =======license_code= ==INSTALLER_UI==SWING 
+
+
+INFO: Choosing Installation Type...
+INFO: Getting keys from: SOFTWARE\Information Builders\AppStudio
+INFO: Sub keys:[82]
+INFO: as:82
+INFO: as Path:C:\ibi\AppStudio82
+INFO: as last release:8206, current release: 8206
+INFO: adding to arrayList: 82
+INFO: Sub keys:[C:\ibi\AppStudio82]
+INFO: List set to:[C:\ibi\AppStudio82]
+INFO: end of setupUI
+
+INFO: Choosing Installation Type...
+INFO: Getting keys from: SOFTWARE\Information Builders\AppStudio
+INFO: Sub keys:[82]
+INFO: as:82
+INFO: as Path:C:\ibi\AppStudio82
+INFO: as last release:8206, current release: 8206
+INFO: adding to arrayList: 82
+INFO: Sub keys:[C:\ibi\AppStudio82]
+INFO: List set to:[C:\ibi\AppStudio82]
+INFO: end of setupUI
+INFO: wfPath,(d):
+INFO: wfPath,(init):C:\ibi\AppStudio82
+INFO: checking: C:\ibi\AppStudio82
+INFO: checking for WIndows, not unc: C:\ibi\AppStudio82
+INFO: path: C:\ibi\AppStudio82
+INFO: folders.length:3
+INFO: folder: ibi
+INFO: folder: AppStudio82
+INFO: Windows=true, will instantiate FileService
+INFO: fservice not null
+INFO: Checking if folder has access: C:\ibi\AppStudio82
+INFO: pathToCheck: C:\ibi\AppStudio82 exists!
+INFO: pathToCheck: C:\ibi\AppStudio82 has write access!
+INFO: pathToCheck: C:\ibi\AppStudio82 has read access!
+INFO: has read-write access
+INFO: path is valid:C:\ibi\AppStudio82
+INFO: wfPath: C:\ibi\AppStudio82
+INFO: Check path
+INFO: checking: C:\ibi\AppStudio82
+INFO: checking for WIndows, not unc: C:\ibi\AppStudio82
+INFO: path: C:\ibi\AppStudio82
+INFO: folders.length:3
+INFO: folder: ibi
+INFO: folder: AppStudio82
+INFO: Windows=true, will instantiate FileService
+INFO: fservice not null
+INFO: Checking if folder has access: C:\ibi\AppStudio82
+INFO: pathToCheck: C:\ibi\AppStudio82 exists!
+INFO: pathToCheck: C:\ibi\AppStudio82 has write access!
+INFO: pathToCheck: C:\ibi\AppStudio82 has read access!
+INFO: has read-write access
+INFO: path is valid:C:\ibi\AppStudio82
+INFO: wfPath: C:\ibi\AppStudio82
+INFO: SUFFIX_WITHOUT_SPACE_PREV= , in Windows 10
+INFO: SUFFIX_WITHOUT_SPACE=, in Windows 10
+INFO: RELEASE_SUFFIX=82, in Windows 10
+INFO: getPreviousInstallInfo-
+INFO: Getting param values from: SOFTWARE\Information Builders\AppStudio\82
+INFO: SERIAL_NO=030649X04
+INFO: LICENSE_CODE=030
+INFO: IS_195_135_095_035=N
+INFO: startstr=WebFOCUS 82 App Studio
+INFO: suffix= suffixWithoutSpaceString=
+INFO: Program Folder: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Information Builders\WebFOCUS 82 App Studio
+INFO: WF_PROGRAM_MENU=WebFOCUS 82 App Studio
+INFO: INSTANCE_SUFFIX=
+INFO: SUFFIX_WITHOUT_SPACE=
+INFO: PROGRAMFOLDER=WebFOCUS 82 App Studio
+INFO: RELEASE_SUFFIX=82
+INFO: approotPath=C:\ibi\apps
+INFO: EDASRV_VER=82
+INFO: EDASRV_ROOT=srv
+INFO: SVR_PROGRAMFOLDER=WebFOCUS Server for App Studio
+INFO: AS_INSTALL=true
+INFO: AS_EXIST=Y
+INFO: Check if valid AS-
+INFO: C:\ibi\AppStudio82\config\install.cfg : file exists
+INFO: install.cfg: IBI_APPROOT_DIRECTORY=C:/ibi/apps
+INFO: install.cfg: IBI_WEBAPP_CONTEXT_DEFAULT=/ibi_apps
+INFO: install.cfg: IBI_WEBFOCUS_CONTEXT=/ibi_apps/WFServlet.ibfs
+INFO: install.cfg: IBI_STATIC_CONTENT_CONTEXT=/ibi_apps/ibi_html
+INFO: install.cfg: IBI_HELP_CONTEXT=/ibi_help
+INFO: install.cfg: IBI_REPORTCASTER_CONTEXT=/ibi_apps
+INFO: install.cfg: IBI_REPOS_DB_USER=webfocus
+INFO: install.cfg: IBI_REPOS_DB_PASSWORD=[AES128I]E1WH1e%2FiObwV1P4oL%2F27mw%3D%3D
+INFO: install.cfg: IBI_REPOS_DB_DRIVER=org.apache.derby.jdbc.EmbeddedDriver
+INFO: install.cfg: IBI_REPOS_DB_URL=jdbc:derby:directory:C:/ibi/AppStudio82/derby/db;create=true
+INFO: install.cfg: 
+INFO: install.cfg: IBI_WFDESCRIBE_DEFAULT=XMLRUN
+INFO: install.cfg: IBI_QUICK_DATA_SECURITY=WFRS
+INFO: install.cfg: IBI_HOME_PAGE_CONFIGURATION=LEGACY
+INFO: install.cfg: INSTOPT_Product=App Studio
+INFO: install.cfg: INSTOPT_Version=8.2
+INFO: install.cfg: INSTOPT_Service_Pack=06
+INFO: install.cfg: INSTOPT_Service_Pack_Applied_Date= 
+INFO: get key value pair
+INFO: key: IBI_APPROOT_DIRECTORY value: C:/ibi/apps
+INFO: key: IBI_WEBAPP_CONTEXT_DEFAULT value: /ibi_apps
+INFO: key: IBI_WEBFOCUS_CONTEXT value: /ibi_apps/WFServlet.ibfs
+INFO: key: IBI_STATIC_CONTENT_CONTEXT value: /ibi_apps/ibi_html
+INFO: key: IBI_HELP_CONTEXT value: /ibi_help
+INFO: key: IBI_REPORTCASTER_CONTEXT value: /ibi_apps
+INFO: key: IBI_REPOS_DB_USER value: webfocus
+INFO: key: IBI_REPOS_DB_PASSWORD value: [AES128I]E1WH1e%2FiObwV1P4oL%2F27mw%3D%3D
+INFO: key: IBI_REPOS_DB_DRIVER value: org.apache.derby.jdbc.EmbeddedDriver
+INFO: key: IBI_REPOS_DB_URL value: jdbc:derby:directory:C:/ibi/AppStudio82/derby/db;create=true
+INFO: key: IBI_WFDESCRIBE_DEFAULT value: XMLRUN
+INFO: key: IBI_QUICK_DATA_SECURITY value: WFRS
+INFO: key: IBI_HOME_PAGE_CONFIGURATION value: LEGACY
+INFO: key: INSTOPT_Product value: App Studio
+INFO: key: INSTOPT_Version value: 8.2
+INFO: key: INSTOPT_Service_Pack value: 06
+INFO: key: INSTOPT_Service_Pack_Applied_Date value: 
+INFO: existing version: 82, or 82
+INFO: installing release version: 82, or 82
+INFO: existing SP: 06, or 6
+INFO: installing SP: 06, or 6
+INFO: C:\ibi\AppStudio82\webapps\webfocus\WEB-INF\web.xml : file exists
+INFO: C:\ibi\AppStudio82\client\wfc\etc\odin.cfg : file exists
+INFO: AS_INSTALL=true
+INFO: AS_EXIST=Y
+INFO: USER_INSTALL_DIR=C:\ibi\AppStudio82
+INFO: UPDATE_INSTALL=Y
+
+INFO: Apr 03 2020_AT:20:07:53 IST
+INFO: =======Update on license: 030 ====INSTALLER_UI==SWING 
+
+
+INFO: Searching for IIS...
+INFO: key: SOFTWARE\Microsoft\INetStp with value:'MajorVersion' does not exist
+INFO: key: SOFTWARE\Microsoft\INetStp with value:'MinorVersion' does not exist
+INFO: set IIS_FOUND=N
+INFO: set IIS_MAJOR_VER=0
+INFO: set IIS_MINOR_VER=0
+INFO: set ISAPIFilterBinaries=N
+INFO: set ISAPIFilter=N
+INFO: set ISAPIExtensionsBinaries=N
+INFO: set ISAPIExtensions=N
+INFO: set ISAPIExtensionsWow=N
+INFO: set ISAPIFilterWow=N
+
+INFO: Setting up variables...
+INFO: HOSTMACHINE: BLRDL-PF1HTYR5
